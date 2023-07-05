@@ -1,6 +1,10 @@
 
 
+const x = [3,5,12];
 
-for(let i = 1; i <= 5; i++){
-    console.log(`Data ke ${i}`)
+
+for(let i = 0; i < x.length; i++){
+    console.log(`${x}`)
+    console.log(`Totalnya adalah`)
 }
+
